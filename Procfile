@@ -1,0 +1,1 @@
+web: gunicorn --bind :$PORT your_project_name.wsgi
